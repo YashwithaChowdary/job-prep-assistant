@@ -1,0 +1,15 @@
+Data Scientist
+
+Requirements
+- 2+ years of experience as a data scientist or analyst
+- Python and pandas
+- Machine learning with scikit-learn
+- Statistics and hypothesis testing
+- SQL
+- Master's degree preferred
+
+Preferred qualifications
+- PyTorch or TensorFlow
+- Apache Spark
+- Experience with Tableau
+- Power BI

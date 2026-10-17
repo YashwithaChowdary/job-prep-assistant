@@ -1,0 +1,20 @@
+Machine Learning Engineer - Northwind Analytics
+
+About us
+Northwind Analytics builds forecasting tools for retailers. Our stack includes Kubernetes and Kafka.
+
+Responsibilities
+- Build and deploy machine learning models to production.
+- Own monitoring for deployed models.
+
+Requirements
+- 3+ years of experience in machine learning or data science
+- Strong Python and scikit-learn skills
+- Solid SQL
+- Experience with Docker
+- Bachelor's degree in Computer Science or related field
+
+Nice to have
+- Experience with AWS
+- MLflow for experiment tracking
+- Familiarity with Airflow

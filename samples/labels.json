@@ -1,0 +1,371 @@
+{
+  "_note": "Hand-labelled by reading each resume and job description, BEFORE running the extractor. resume_skills lists only skills stated in the resume (implied skills are judged in expected_gap). 'full' = used or listed plainly, 'partial' = basic or still learning.",
+  "cases": [
+    {
+      "id": "01_ml_engineer_strong",
+      "resume": "resume_01.txt",
+      "job": "jd_01.txt",
+      "challenge": "Python is never written on the resume, only implied by pandas / scikit-learn. About-us text mentions Kubernetes and Kafka, which are not requirements.",
+      "resume_skills": {
+        "Machine Learning": "full",
+        "pandas": "full",
+        "NumPy": "full",
+        "scikit-learn": "full",
+        "SQL": "full",
+        "Docker": "full",
+        "AWS": "full",
+        "Git": "full",
+        "FastAPI": "full",
+        "PostgreSQL": "full",
+        "REST APIs": "full",
+        "Tableau": "full",
+        "Feature Engineering": "full",
+        "NLP": "full",
+        "Streamlit": "full"
+      },
+      "jd_required": [
+        "Machine Learning",
+        "Python",
+        "scikit-learn",
+        "SQL",
+        "Docker"
+      ],
+      "jd_preferred": [
+        "AWS",
+        "MLflow",
+        "Airflow"
+      ],
+      "expected_gap": {
+        "Machine Learning": "matched",
+        "Python": "matched",
+        "scikit-learn": "matched",
+        "SQL": "matched",
+        "Docker": "matched",
+        "AWS": "matched",
+        "MLflow": "missing",
+        "Airflow": "missing"
+      },
+      "expected_fit": "strong"
+    },
+    {
+      "id": "02_data_analyst_moderate",
+      "resume": "resume_02.txt",
+      "job": "jd_02.txt",
+      "challenge": "Python is only 'basic'. Machine learning is absent. Preferred tier must carry less weight.",
+      "resume_skills": {
+        "SQL": "full",
+        "Excel": "full",
+        "Tableau": "full",
+        "Power BI": "full",
+        "Python": "partial",
+        "pandas": "full",
+        "Statistics": "full",
+        "MySQL": "full"
+      },
+      "jd_required": [
+        "Python",
+        "pandas",
+        "Machine Learning",
+        "scikit-learn",
+        "Statistics",
+        "SQL"
+      ],
+      "jd_preferred": [
+        "PyTorch",
+        "TensorFlow",
+        "Apache Spark",
+        "Tableau",
+        "Power BI"
+      ],
+      "expected_gap": {
+        "Python": "partial",
+        "pandas": "matched",
+        "Machine Learning": "missing",
+        "scikit-learn": "missing",
+        "Statistics": "matched",
+        "SQL": "matched",
+        "PyTorch": "missing",
+        "TensorFlow": "missing",
+        "Apache Spark": "missing",
+        "Tableau": "matched",
+        "Power BI": "matched"
+      },
+      "expected_fit": "moderate"
+    },
+    {
+      "id": "03_career_changer_weak",
+      "resume": "resume_03.docx",
+      "job": "jd_03.txt",
+      "challenge": "Word file. 'Currently learning Python and LLM' is partial. 'No experience with vector databases or RAG yet' must NOT count as a match.",
+      "resume_skills": {
+        "Java": "full",
+        "Spring Boot": "full",
+        "MySQL": "full",
+        "Docker": "full",
+        "Jenkins": "full",
+        "Git": "full",
+        "REST APIs": "full",
+        "Microservices": "full",
+        "Linux": "full",
+        "CI/CD": "full",
+        "Unit Testing": "full",
+        "Python": "partial",
+        "LLMs": "partial"
+      },
+      "jd_required": [
+        "Python",
+        "LLMs",
+        "RAG",
+        "Vector Databases",
+        "FastAPI"
+      ],
+      "jd_preferred": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "expected_gap": {
+        "Python": "partial",
+        "LLMs": "partial",
+        "RAG": "missing",
+        "Vector Databases": "missing",
+        "FastAPI": "missing",
+        "Docker": "matched",
+        "Kubernetes": "missing"
+      },
+      "expected_fit": "weak"
+    },
+    {
+      "id": "04_devops_aliases_strong",
+      "resume": "resume_04.pdf",
+      "job": "jd_04.txt",
+      "challenge": "PDF file. Resume says k8s, GH Actions, Postgres, Amazon Web Services. Azure is missing but AWS is a close substitute.",
+      "resume_skills": {
+        "Kubernetes": "full",
+        "Docker": "full",
+        "GitHub Actions": "full",
+        "Terraform": "full",
+        "PostgreSQL": "full",
+        "AWS": "full",
+        "Linux": "full",
+        "Bash": "full",
+        "Prometheus": "full",
+        "Grafana": "full",
+        "Ansible": "full",
+        "CI/CD": "full",
+        "Microservices": "full"
+      },
+      "jd_required": [
+        "Kubernetes",
+        "CI/CD",
+        "GitHub Actions",
+        "Terraform",
+        "PostgreSQL",
+        "Azure"
+      ],
+      "jd_preferred": [
+        "Helm",
+        "Prometheus"
+      ],
+      "expected_gap": {
+        "Kubernetes": "matched",
+        "CI/CD": "matched",
+        "GitHub Actions": "matched",
+        "Terraform": "matched",
+        "PostgreSQL": "matched",
+        "Azure": "partial",
+        "Helm": "missing",
+        "Prometheus": "matched"
+      },
+      "expected_fit": "strong"
+    },
+    {
+      "id": "05_designer_to_data_engineer_weak",
+      "resume": "resume_05.txt",
+      "job": "jd_05.txt",
+      "challenge": "Complete mismatch. Unknown skills (Photoshop, Figma ...) must be reported as not scored, not silently dropped. Years of experience will look fine but are not relevant.",
+      "resume_skills": {
+        "Excel": "full"
+      },
+      "jd_required": [
+        "Python",
+        "SQL",
+        "Apache Spark",
+        "Airflow",
+        "Kafka",
+        "ETL"
+      ],
+      "jd_preferred": [
+        "AWS"
+      ],
+      "expected_gap": {
+        "Python": "missing",
+        "SQL": "missing",
+        "Apache Spark": "missing",
+        "Airflow": "missing",
+        "Kafka": "missing",
+        "ETL": "missing",
+        "AWS": "missing"
+      },
+      "expected_fit": "weak"
+    },
+    {
+      "id": "06_fresher_unstructured_moderate",
+      "resume": "resume_06.txt",
+      "job": "jd_06.txt",
+      "challenge": "No section headings. 'Currently learning Docker and Kubernetes' is partial. 'No experience with Terraform or Jenkins' is negated. Azure is partial via AWS.",
+      "resume_skills": {
+        "Python": "full",
+        "Git": "full",
+        "Docker": "partial",
+        "Kubernetes": "partial",
+        "Flask": "full",
+        "AWS": "full",
+        "Linux": "full"
+      },
+      "jd_required": [
+        "Linux",
+        "Git",
+        "Python",
+        "AWS",
+        "Azure",
+        "Docker"
+      ],
+      "jd_preferred": [
+        "Kubernetes",
+        "Terraform",
+        "Jenkins"
+      ],
+      "expected_gap": {
+        "Linux": "matched",
+        "Git": "matched",
+        "Python": "matched",
+        "AWS": "matched",
+        "Azure": "partial",
+        "Docker": "partial",
+        "Kubernetes": "partial",
+        "Terraform": "missing",
+        "Jenkins": "missing"
+      },
+      "expected_fit": "moderate"
+    },
+    {
+      "id": "07_stress_trap_words",
+      "resume": "resume_07.txt",
+      "job": "jd_07.txt",
+      "challenge": "STRESS CASE (written after the first six). 'Spring 2025' is a season, 'Shell Energy' is an employer, 'rest of the team' is a phrase, 'no hands-on Kubernetes administration' means no Kubernetes claim.",
+      "resume_skills": {
+        "Python": "full",
+        "Django": "full",
+        "PostgreSQL": "full",
+        "Redis": "full",
+        "AWS": "full",
+        "Docker": "full",
+        "REST APIs": "full",
+        "Unit Testing": "full"
+      },
+      "jd_required": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "REST APIs",
+        "Docker",
+        "Kubernetes",
+        "Unit Testing"
+      ],
+      "jd_preferred": [
+        "Redis",
+        "AWS"
+      ],
+      "expected_gap": {
+        "Python": "matched",
+        "Django": "matched",
+        "PostgreSQL": "matched",
+        "REST APIs": "matched",
+        "Docker": "matched",
+        "Kubernetes": "missing",
+        "Unit Testing": "matched",
+        "Redis": "matched",
+        "AWS": "matched"
+      },
+      "expected_fit": "strong"
+    },
+    {
+      "id": "08_stress_abbreviations",
+      "resume": "resume_08.txt",
+      "job": "jd_08.txt",
+      "challenge": "STRESS CASE. 'TF' is TensorFlow to a human reader. 'Internship' (singular) heading. Skills outside the knowledge base (transformers, HuggingFace, LaTeX).",
+      "resume_skills": {
+        "Python": "full",
+        "PyTorch": "full",
+        "TensorFlow": "full",
+        "NLP": "full",
+        "Git": "full",
+        "Linux": "full",
+        "Deep Learning": "full",
+        "Machine Learning": "full",
+        "Flask": "full"
+      },
+      "jd_required": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "NLP",
+        "Git"
+      ],
+      "jd_preferred": [
+        "Docker",
+        "Flask",
+        "FastAPI"
+      ],
+      "expected_gap": {
+        "Python": "matched",
+        "PyTorch": "matched",
+        "TensorFlow": "matched",
+        "NLP": "matched",
+        "Git": "matched",
+        "Docker": "missing",
+        "Flask": "matched",
+        "FastAPI": "partial"
+      },
+      "expected_fit": "strong"
+    },
+    {
+      "id": "09_stress_paragraph_jd",
+      "resume": "resume_04.pdf",
+      "job": "jd_09.txt",
+      "challenge": "STRESS CASE. Job description is one prose paragraph with no headings or bullets; only one sentence is optional.",
+      "resume_skills": {
+        "Kubernetes": "full",
+        "Docker": "full",
+        "GitHub Actions": "full",
+        "Terraform": "full",
+        "PostgreSQL": "full",
+        "AWS": "full",
+        "Linux": "full",
+        "Bash": "full",
+        "Prometheus": "full",
+        "Grafana": "full",
+        "Ansible": "full",
+        "CI/CD": "full",
+        "Microservices": "full"
+      },
+      "jd_required": [
+        "AWS",
+        "Terraform",
+        "Bash"
+      ],
+      "jd_preferred": [
+        "Kubernetes",
+        "Azure"
+      ],
+      "expected_gap": {
+        "AWS": "matched",
+        "Terraform": "matched",
+        "Bash": "matched",
+        "Kubernetes": "matched",
+        "Azure": "partial"
+      },
+      "expected_fit": "strong"
+    }
+  ]
+}

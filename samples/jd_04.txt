@@ -1,0 +1,12 @@
+Platform Engineer
+
+Must have
+- Kubernetes in production
+- CI/CD with GitHub Actions
+- Terraform
+- PostgreSQL administration
+- Azure
+
+Bonus points
+- Helm
+- Prometheus

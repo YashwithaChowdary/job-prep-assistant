@@ -1,0 +1,18 @@
+Ananya Krishnan
+ananya.k@example.com
+
+SUMMARY
+Backend engineer who led the rest of the team through a Spring 2025 migration to the cloud. Looking for platform roles.
+
+SKILLS
+Python, Go, Django, PostgreSQL, Redis, AWS (S3, Lambda), Docker, REST, GraphQL
+
+EXPERIENCE
+Backend Engineer - Shell Energy Digital | Jan 2020 - Present
+- Built Django services for 200k users and moved the monolith onto Docker containers.
+- Designed REST endpoints and cached hot queries in Redis, cutting p95 latency by 40%.
+- Sparked a testing culture: introduced pytest and raised coverage from 30% to 80%.
+- Ran workloads on nodes of a Kubernetes cluster managed by the platform team (no hands-on Kubernetes administration).
+
+EDUCATION
+B.Tech in Computer Science, 2015 - 2019

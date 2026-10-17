@@ -1,0 +1,14 @@
+{
+  "resume_skills": {
+    "precision": 0.989,
+    "recall": 1.0,
+    "f1": 0.994
+  },
+  "job_skills": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "gap_accuracy": 0.986,
+  "fit_accuracy": 1.0
+}

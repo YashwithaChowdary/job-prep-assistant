@@ -1,0 +1,13 @@
+Backend Engineer
+
+Requirements
+- Python and Django
+- PostgreSQL
+- REST APIs
+- Docker
+- Kubernetes
+- Unit testing
+
+Nice to have
+- Redis
+- AWS

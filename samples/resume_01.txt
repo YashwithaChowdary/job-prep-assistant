@@ -1,0 +1,24 @@
+Arjun Mehta
+arjun.mehta@example.com | +91 98765 43210 | linkedin.com/in/arjun-mehta-example
+
+SUMMARY
+Machine learning engineer with 6 years of experience building and deploying predictive models.
+
+SKILLS
+pandas, NumPy, scikit-learn, SQL, Docker, AWS, Git, FastAPI, PostgreSQL
+
+EXPERIENCE
+ML Engineer - Finlytics Pvt Ltd | Jun 2022 - Present
+- Built a churn prediction model with scikit-learn and pandas, lifting retention campaign precision by 18%.
+- Deployed models as REST APIs using FastAPI and Docker on AWS EC2.
+- Wrote SQL pipelines on PostgreSQL to prepare training data for 3 models.
+Data Analyst - Brightcart | Jul 2020 - May 2022
+- Automated weekly reports with pandas and SQL, saving 10 hours per week.
+- Built dashboards in Tableau for the sales team.
+
+PROJECTS
+Customer Churn Prediction - Telecom dataset, feature engineering, random forest, 0.87 AUC using scikit-learn.
+Resume Screening Tool - Streamlit app using NLP to rank resumes.
+
+EDUCATION
+B.Tech in Computer Science, Anna University, 2016 - 2020

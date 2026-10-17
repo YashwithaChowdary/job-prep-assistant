@@ -1,0 +1,18 @@
+Ishaan Verma
+ishaan.v@example.com
+
+Objective
+Final-year student seeking an ML role.
+
+Skills
+Python (advanced), PyTorch, TF, NLP, transformers, HuggingFace, Git, LaTeX, Linux
+
+Projects
+Sentiment Analyser: fine-tuned BERT for sentiment classification using PyTorch; evaluated with F1 and error analysis.
+Traffic Sign Classifier: CNN in PyTorch with data augmentation, 97% accuracy.
+
+Internship
+ML Intern at Quantix Labs, Jun 2025 - Aug 2025: worked on text classification and deployed a model behind a Flask API.
+
+Education
+B.Tech in AI and Data Science, 2022 - 2026

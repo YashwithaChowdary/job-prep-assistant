@@ -1,0 +1,3 @@
+Cloud Support Engineer
+
+We are hiring a Cloud Support Engineer to join our team in Pune. You will manage our AWS estate, write Terraform and Bash automation, and be on call for incidents. Experience with Kubernetes is a plus, and knowing Azure would be helpful but is not essential. 3-5 years in a similar role.

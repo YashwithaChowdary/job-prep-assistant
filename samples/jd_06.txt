@@ -1,0 +1,12 @@
+Junior Cloud Engineer
+
+Requirements
+- Basic knowledge of Linux and Git
+- Python scripting
+- Familiarity with AWS or Azure
+- Docker fundamentals
+
+Nice to have
+- Kubernetes
+- Terraform
+- Jenkins

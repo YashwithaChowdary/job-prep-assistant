@@ -1,0 +1,11 @@
+Applied ML Engineer (Junior)
+
+Requirements
+- Python
+- PyTorch or TensorFlow
+- NLP experience
+- Git
+
+Nice to have
+- Docker
+- Experience deploying models with Flask or FastAPI

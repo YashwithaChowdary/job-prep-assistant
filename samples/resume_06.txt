@@ -1,0 +1,7 @@
+Vikram Singh - fresher cloud enthusiast
+vikram@example.com
+
+I finished my B.Tech in 2025. I have used Python for college projects and I am familiar with Git.
+Currently learning Docker and Kubernetes. No experience with Terraform or Jenkins.
+Built a small Flask app and deployed it on AWS free tier for a college project.
+Skills: Python, Flask, AWS, Linux

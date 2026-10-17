@@ -1,0 +1,12 @@
+Data Engineer
+
+Requirements
+- Python and SQL
+- Apache Spark
+- Apache Airflow
+- Kafka
+- ETL pipeline design
+- 3+ years of experience
+
+Preferred
+- AWS

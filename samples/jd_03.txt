@@ -1,0 +1,11 @@
+Generative AI Engineer - Lumen Labs
+
+Requirements:
+- Strong Python skills
+- Hands-on experience building LLM applications
+- Retrieval-augmented generation (RAG) pipelines
+- Experience with vector databases such as Pinecone or Chroma
+- FastAPI for serving APIs
+
+Nice to have:
+- Docker and Kubernetes
